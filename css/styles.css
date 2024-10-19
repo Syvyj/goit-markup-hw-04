@@ -21,6 +21,16 @@ img {
   display: block;
   max-width: 100%;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
 /*----------HEADER---------*/
 .page-header {
   font-weight: 700;
@@ -142,7 +152,7 @@ img {
 }
 /*----------MAIN---------*/
 .main {
-  max-width: 1440px;
+  max-width: 100%;
   background-color: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
@@ -160,6 +170,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-width: 1440px;
 }
 .main-title {
   font-weight: 700;
@@ -477,7 +488,6 @@ img {
   height: 40px;
   justify-content: center;
   align-items: center;
-  margin-left: auto;
   gap: 16px;
 }
 
