@@ -33,7 +33,6 @@ p {
 }
 /*----------HEADER---------*/
 .page-header {
-  font-weight: 700;
   font-size: 18px;
   line-height: 117%;
   letter-spacing: 0.03em;
@@ -471,7 +470,6 @@ p {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   text-align: justify;
-  margin-top: 0;
 }
 
 .footer-soc-title {
